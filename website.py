@@ -12,8 +12,8 @@ from tran import translate_bulk
 import asyncio
 
 # Load model and tokenizer
-model = load_model(r"drive-download-20250216T090622Z-001\my_model.keras")
-with open(r"drive-download-20250216T090622Z-001\tokenizer.pkl", 'rb') as handle:
+model = load_model(r"drive-download-20250216T090622Z-001/my_model.keras")
+with open(r"drive-download-20250216T090622Z-001/tokenizer.pkl", 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # Download necessary NLTK resources

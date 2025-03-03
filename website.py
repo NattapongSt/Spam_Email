@@ -13,7 +13,7 @@ import asyncio
 
 # Load model and tokenizer
 model = load_model("https://angsila.informatics.buu.ac.th/~65160140/NLP_MODEL/my_model.keras")
-with open("./drive-download-20250216T090622Z-001/tokenizer.pkl', 'rb') as handle:
+with open("./drive-download-20250216T090622Z-001/tokenizer.pkl", 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # Download necessary NLTK resources
